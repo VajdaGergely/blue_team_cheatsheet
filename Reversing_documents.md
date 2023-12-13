@@ -53,6 +53,10 @@ js_analyze file JSFILE
 * mozilla's implementation of javascript
 * modified to write file when JS executes - eval, document.write, windows.navigate - commands
 * https://blog.didierstevens.com/programs/spidermonkey/
+* Remnux command
+<pre>
+js-file JSFILE
+</pre>
 ## Misc tools
 ### Basic analysis tools (Linux)
 <pre>
