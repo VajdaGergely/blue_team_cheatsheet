@@ -1,17 +1,13 @@
-# Source
+# Document reversing source
 * https://www.udemy.com/course/malware-analysis-of-documents/
 * lots of other info in the course:
   * tools to use
   * pdf file format, objects, keywords, strings, data encoding methods
-# Info
-* static techniques
-  * embedded string analyzes
-  * searching encoded or encrypted data
-* dynamic techniques
-# OS
+# Reversing Operating Systems
 * FlareVM (Windows)
 * Remnux (Linux)
-## Pdf analysis tools
+# Pdf analysis
+## Tools
 ### pdfid
 * identify PDF object types and filters
 * https://blog.didierstevens.com/programs/pdf-tools/
@@ -38,9 +34,10 @@
 -i: inline mode
 -u: update
 </pre>
-## Pdf analysis documentation
+## Online documentation
 * https://acrobatusers.com/tutorials/print/importing-and-exporting-pdf-file-attachments-acrobat-javascript/
-## Javascript analysis tools
+# Javascript analysis
+## Tools
 ### peepdf
 * beautifies and executes javascript in a sandbox
 * not work in Remnux because of some python lib dependency issue
@@ -61,8 +58,9 @@ js-file JSFILE
 ## Javascript deobfuscation
 * online tools
 * manual techniques
-## Misc tools
-### Basic analysis tools (Linux)
+# MS Office documents analysis
+# Misc tools
+## Basic analysis tools (Linux)
 <pre>
 $ file file1.pdf
 $ strings -a file1.pdf | less
@@ -71,12 +69,12 @@ $ xorsearch -p file1.pdf (-p is for password)
 $ exiftool file1.pdf | less
 $ yara ./yara-rules/index.yar file1.pdf
 </pre>
-### Tipical virus scanner and analysis tools (Windows)
+## Tipical virus scanner and analysis tools (Windows)
 * Windows Defender
 * virustotal (Windows and Linux as well)
 * Tridnet
 * dir /R (view Alternate Data Streams)
-### Steganography tools
+## Steganography tools
 <pre>
 file file1.jpg
 strings -a file1.jpg
@@ -87,10 +85,10 @@ binwalk file1.jpg
 binwalk -e file1.jpg
 stegcracker file1.jpg rockyou.txt
 </pre>
-### Yara rules
+## Yara rules
 * yara rule files for other tools
 * https://github.com/Yara-Rules/rules
-### yara
+## yara
 <pre>
 # usage
 yara ./yara-rules/index.yar file1.pdf
@@ -100,13 +98,13 @@ yara ./yara-rules/index.yar file1.pdf
 -m: Print metadata
 -s: Print matching strings
 </pre>
-### zipdump
+## zipdump
 * iterate over zip archive
 * run yara signatures against each file
 * https://github.com/DidierStevens
 <pre>
 zipdump -y signature.yar document.docx
 </pre>
-### exiftool
+## exiftool
 * extracts metadata from dozens of file types
 * https://www.sno.phy.queensu.ca/-phil/exiftool/
