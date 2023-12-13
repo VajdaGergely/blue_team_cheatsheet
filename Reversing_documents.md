@@ -91,10 +91,18 @@ js-file JSFILE
   * GetWindowThreadProcessId, OpenProcess, WriteProcessMemory, ReadProcessMemory
 * Script analysis indicators
   * URLs, commands, filenames
+## Tools
 * VBA emulation engine
   * https://github.com/decalage2/ViperMonkey
 <pre>
 python vmonkey.py file1.docx
+</pre>
+* olevba
+  * string deobfuscation and replacement
+  * options:
+<pre>
+--deobf: Deobfuscate strings
+--reveal: Replace strings in original code
 </pre>
 # Misc tools
 ## Basic analysis tools (Linux)
