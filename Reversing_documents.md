@@ -181,3 +181,7 @@ zipdump -y signature.yar document.docx
 ## exiftool
 * extracts metadata from dozens of file types
 * https://www.sno.phy.queensu.ca/-phil/exiftool/
+# Further resources
+* Free malware samples sources for researchers
+  * https://zeltser/malware-sample-sources/
+  * default password for malware zip files is: infected
