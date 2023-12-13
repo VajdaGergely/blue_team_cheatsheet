@@ -1,20 +1,35 @@
 # Reversing documents (doc, docx, pdf, ...)
 ## source
 * https://www.udemy.com/course/malware-analysis-of-documents/
+* lots of other info in the course:
+  * tools to use
+  * pdf file format, objects, keywords, strings, data encoding methods
+  * 
 ## info
 * static techniques
   * embedded string analyzes
   * searching encoded or encrypted data
 * dynamic techniques
+## OS
+* FlareVM (Windows)
+* Remnux (Linux)
 ## tools
-### basic tools, commands
+### basic tools, commands (Linux)
 <pre>
+$ file file1.pdf
 $ strings -a file1.pdf | less
 $ xorsearch file1.pdf http
 $ xorsearch -p file1.pdf (-p is for password)
 $ exiftool file1.pdf | less
 $ yara ./yara-rules/index.yar file1.pdf
 </pre>
+### Tipical virus scanner tools
+* Windows Defender
+* virustotal
+* Tridnet
+* dir /R (view Alternate Data Streams)
+### Steganography tools
+
 ### Yara rules
 * yara rule files for other tools
 * https://github.com/Yara-Rules/rules
