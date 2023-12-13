@@ -29,7 +29,16 @@ $ yara ./yara-rules/index.yar file1.pdf
 * Tridnet
 * dir /R (view Alternate Data Streams)
 ### Steganography tools
-
+<pre>
+file file1.jpg
+strings -a file1.jpg
+steghide info file1.jpg (ha passphrase-t ker probaljuk meg uressel! ha az nem jo, akkor stegcracker kell!)
+steghide extract -sf file1.jpg (ha passphrase-t ker probaljuk meg uressel! ha az nem jo, akkor stegcracker kell!)
+foremost -i file1.jpg
+binwalk file1.jpg
+binwalk -e file1.jpg
+stegcracker file1.jpg rockyou.txt
+</pre>
 ### Yara rules
 * yara rule files for other tools
 * https://github.com/Yara-Rules/rules
