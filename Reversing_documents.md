@@ -39,6 +39,8 @@
 -i: inline mode
 -u: update
 </pre>
+## Pdf analysis documentation
+* https://acrobatusers.com/tutorials/print/importing-and-exporting-pdf-file-attachments-acrobat-javascript/
 ## Javascript analysis tools
 ### peepdf
 * beautifies and executes javascript in a sandbox
