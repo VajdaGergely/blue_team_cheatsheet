@@ -57,6 +57,9 @@ js_analyze file JSFILE
 <pre>
 js-file JSFILE
 </pre>
+## Javascript deobfuscation
+* online tools
+* manual techniques
 ## Misc tools
 ### Basic analysis tools (Linux)
 <pre>
