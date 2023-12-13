@@ -104,6 +104,18 @@ python vmonkey.py file1.docx
 --deobf: Deobfuscate strings
 --reveal: Replace strings in original code
 </pre>
+# Using debuggers in document analysis
+## Info
+* All windows programs and scripts are calling Win32 API functions at the end...
+* Functions to monitor:
+  * File operations
+    * CreateFileW, WriteFile
+  * HTTP operations
+    * InternetCrackURL, HTTPCrackURL
+  * Process operations
+    * CreateProcess
+## Tools
+
 # Misc tools
 ## Basic analysis tools (Linux)
 <pre>
