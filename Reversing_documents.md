@@ -17,6 +17,28 @@
 * identify PDF object types and filters
 * https://blog.didierstevens.com/programs/pdf-tools/
 * (it only tells you what is in the document not where it is)
+  * in case of suspicious things you should move on to pdf-parser
+### pdf-parser
+* parses, searches, and extracts data from PDF documents
+* https://blog.didierstevens.com/programs/pdf-tools/
+* options
+<pre>
+-s TERM: Search for TERM
+-o #: Print object number
+-f: Decode data in object
+-w: Display raw data from object
+</pre>
+### peepdf
+* combines multiple tools into once
+* finds suspicious objects
+* decodes data
+* javascript analysis built-in
+* http://eternal-todo.com/tools/peepdf-pdf-analysis-tool
+* options
+<pre>
+-i: inline mode
+-u: update
+</pre>
 ## Misc tools
 ### Basic analysis tools (Linux)
 <pre>
