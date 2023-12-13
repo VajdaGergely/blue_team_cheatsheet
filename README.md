@@ -1,2 +1,2 @@
 # blue_team_cheatsheet
-Reversing, malware analyzes, forensic tools, commands, etc
+Reversing-, malware analysis-, forensic-, debugging-, binary analysis- tools, commands, etc...
