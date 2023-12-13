@@ -1,4 +1,6 @@
 # Reversing documents (doc, docx, pdf, ...)
+## source
+* https://www.udemy.com/course/malware-analysis-of-documents/
 ## info
 * static techniques
   * embedded string analyzes
