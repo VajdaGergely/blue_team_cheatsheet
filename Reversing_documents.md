@@ -1,15 +1,14 @@
-# Reversing documents (doc, docx, pdf, ...)
-## Source
+# Source
 * https://www.udemy.com/course/malware-analysis-of-documents/
 * lots of other info in the course:
   * tools to use
   * pdf file format, objects, keywords, strings, data encoding methods
-## Info
+# Info
 * static techniques
   * embedded string analyzes
   * searching encoded or encrypted data
 * dynamic techniques
-## OS
+# OS
 * FlareVM (Windows)
 * Remnux (Linux)
 ## Pdf analysis tools
