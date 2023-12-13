@@ -89,7 +89,13 @@ js-file JSFILE
   * AutoOpen(), AutoExec(), AutoClose(), Chr(), Shell()
 * Commands for loading external DLLs and APIs
   * GetWindowThreadProcessId, OpenProcess, WriteProcessMemory, ReadProcessMemory
-* 
+* Script analysis indicators
+  * URLs, commands, filenames
+* VBA emulation engine
+  * https://github.com/decalage2/ViperMonkey
+<pre>
+python vmonkey.py file1.docx
+</pre>
 # Misc tools
 ## Basic analysis tools (Linux)
 <pre>
