@@ -115,7 +115,23 @@ python vmonkey.py file1.docx
   * Process operations
     * CreateProcess
 ## Tools
-
+### Lazy Office Analyzer
+* extracts URLs, file modifications and executed programs
+* Word, Excel, PowerPoint, Javascript
+* https://github.com/tehsyntx/loffice
+* Options
+<pre>
+Loffice.py type exit-on file1.docx
+# Type: word, excel, power, script
+# Exit-on: url, proc, none
+</pre>
+* Prerequisites
+  * MS Office
+  * WinDbg / https://msdn.microsoft.com/en-us/windows/hardware/hh852365
+  * Python 2.7
+  * WinAppDbg - http://winappdbg.sourceforge.net/
+  * pefile - https://github.com/erocarrera/pefile (pip install)
+  * capstone - https://pypi.python.org/pypi/capstone-windows (pip install)
 # Misc tools
 ## Basic analysis tools (Linux)
 <pre>
