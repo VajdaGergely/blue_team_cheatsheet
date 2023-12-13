@@ -39,6 +39,20 @@
 -i: inline mode
 -u: update
 </pre>
+## Javascript analysis tools
+### peepdf
+* beautifies and executes javascript in a sandbox
+* not work in Remnux because of some python lib dependency issue
+* http://eternal-todo.com/tools/peepdf-pdf-analysis-tool
+* inline commands
+<pre>
+js_beautify file JSFILE
+js_analyze file JSFILE
+</pre>
+### spidermonkey
+* mozilla's implementation of javascript
+* modified to write file when JS executes - eval, document.write, windows.navigate - commands
+* https://blog.didierstevens.com/programs/spidermonkey/
 ## Misc tools
 ### Basic analysis tools (Linux)
 <pre>
