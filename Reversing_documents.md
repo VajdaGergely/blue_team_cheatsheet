@@ -9,11 +9,23 @@
 <pre>
 $ strings -a file1.pdf | less
 $ xorsearch file1.pdf http
-$ xorsearch -p file1.pdf
+$ xorsearch -p file1.pdf (-p is for password)
+$ exiftool file1.pdf | less
+$ yara ./yara-rules/index.yar file1.pdf
 </pre>
 ### Yara rules
 * yara rule files for other tools
 * https://github.com/Yara-Rules/rules
+### yara
+<pre>
+# usage
+yara ./yara-rules/index.yar file1.pdf
+# parameters
+-w: Turn off warnings
+-g: Print tags
+-m: Print metadata
+-s: Print matching strings
+</pre>
 ### zipdump
 * iterate over zip archive
 * run yara signatures against each file
