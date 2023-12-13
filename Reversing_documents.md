@@ -65,7 +65,12 @@ js-file JSFILE
   * Office Open XML Format: Zip archive containing XML (.docx, .docm, ...)
   * Structured Storage Format: Binary format (.doc, .xls, .ppt...)
 ## Tools
-* 
+* oletools
+  * olebrowse - View and extract streams
+  * oletimes - Extract times
+  * oleid - Looks for malicious characteristics
+  * olevba - Extract VBA scripts
+  * https://www.decalage.info/python/oletools
 # Misc tools
 ## Basic analysis tools (Linux)
 <pre>
