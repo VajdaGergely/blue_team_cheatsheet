@@ -59,11 +59,15 @@ js-file JSFILE
 * online tools
 * manual techniques
 # MS Office documents analysis
-## info
+## Info
 * malicious components: scripts (VBA macros), commands, embedded files
 * office document formats
   * Office Open XML Format: Zip archive containing XML (.docx, .docm, ...)
   * Structured Storage Format: Binary format (.doc, .xls, .ppt...)
+## Workflow in analysis office documents
+* Determine the document type (file identification tools)
+* Search for malicious indicators
+* Extract and continue analysis
 ## Tools
 * oletools
   * olebrowse - View and extract streams
