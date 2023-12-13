@@ -71,6 +71,10 @@ js-file JSFILE
   * oleid - Looks for malicious characteristics
   * olevba - Extract VBA scripts
   * https://www.decalage.info/python/oletools
+* Office Open XML Format tools
+  * exiftool - Metadata
+  * zipdump + yara - Signature detection
+  * olevba - VBA
 # Misc tools
 ## Basic analysis tools (Linux)
 <pre>
