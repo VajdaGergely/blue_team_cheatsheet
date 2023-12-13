@@ -79,6 +79,17 @@ js-file JSFILE
   * exiftool - Metadata
   * zipdump + yara - Signature detection
   * olevba - VBA
+# VBA script analysis
+## Info
+* VBA (Visual Basic for Applications) features
+  * write to file system
+  * open network connection
+  * execute other programs
+* Suspicious VBA commands
+  * AutoOpen(), AutoExec(), AutoClose(), Chr(), Shell()
+* Commands for loading external DLLs and APIs
+  * GetWindowThreadProcessId, OpenProcess, WriteProcessMemory, ReadProcessMemory
+* 
 # Misc tools
 ## Basic analysis tools (Linux)
 <pre>
