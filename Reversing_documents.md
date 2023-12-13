@@ -4,8 +4,16 @@
   * embedded string analyzes
   * searching encoded or encrypted data
 * dynamic techniques
-
 ## tools
+### basic tools, commands
+<pre>
+$ strings -a file1.pdf | less
+$ xorsearch file1.pdf http
+$ xorsearch -p file1.pdf
+</pre>
+### Yara rules
+* yara rule files for other tools
+* https://github.com/Yara-Rules/rules
 ### zipdump
 * iterate over zip archive
 * run yara signatures against each file
