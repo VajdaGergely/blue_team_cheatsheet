@@ -6,10 +6,10 @@
 * PDF/A - similar to PDF format but it is an ISO standard an have minor modifications
 * PDF/E - architects, engineers, construction professionals, and manufacturing product teams - 3D objects on screen
 * PDF/X - print professionals, graphic designers, and creative professionals - print-ready documents by correctly embedding fonts, images, color profiles, and more
-* PDF/UA - 
-* PDF/VT - 
-* PAdES - 
-* PDF Healthcare - 
+* PDF/UA - people with disabilities - compatible with assistive technology that assists users through reading and navigation
+* PDF/VT - print professionals - maintains color profiles, layers, and transparency in documents
+* PAdES - comply with European Union requirements - PDF Advanced Electronic Signatures
+* PDF Healthcare - best practices for healthcare information - clinical notes, lab reports, scanned images, digital X-rays
 ## standards detailed description
 1. PDF – This standard was developed for long-term file storage, commonly used by archivists, records managers and compliance managers. It has a restricted set of features, including JavaScript, audio and video content and encryption, because they may disallow users from opening and viewing accurately in the future.
 2. PDF/A – This standard was developed for long-term file storage, commonly used by archivists, records managers, and compliance managers. It has a restricted set of features, including JavaScript, audio and video content, and encryption, because they may disallow users from opening and viewing accurately in the future.
